@@ -20,4 +20,3 @@ function currentLine(curLine) {
 }
 
 
-}
