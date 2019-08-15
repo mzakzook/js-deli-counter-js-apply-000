@@ -19,10 +19,10 @@ function currentLine(curLine) {
     return "The line is currently empty.";
   } else {
     for (var i = 0; i < curLine.length; i++) {
-    nameList += `${i + 1}. ${curLine[i]}`;
-    if (curLine.length !== (i + 1)) {
-      nameList += ", ";
-    }
+      nameList += `${i + 1}. ${curLine[i]}`;
+      if (curLine.length !== (i + 1)) {
+        nameList += ", ";
+      }
     }
     return `The line is currently: ${nameList}`;
   }
