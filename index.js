@@ -13,12 +13,12 @@ function nowServing(katzDeliLine) {
   }
 }
 
-// function currentLine(curLine) {
-//   for (i = 0; i < curLine.length; i++) {
-//   var nameList 
-//   nameList += `${i + 1}. ${curLine[i]}`
-//   return `The line is currently: ${nameList}`
-//   }
-// }
+function currentLine(curLine) {
+  for (i = 0; i < curLine.length; i++) {
+  var nameList 
+  nameList += `${i + 1}. ${curLine[i]}`
+  return `The line is currently: ${nameList}`
+  }
+}
 
 
