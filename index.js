@@ -20,7 +20,9 @@ function currentLine(curLine) {
   } else {
     for (var i = 0; i < curLine.length; i++) {
     nameList += `${i + 1}. ${curLine[i]}`;
-    if (curLine.length != )
+    if (curLine.length !== (i + 1)) {
+      nameList += ", ";
+    }
     }
     return `The line is currently: ${nameList}`;
   }
