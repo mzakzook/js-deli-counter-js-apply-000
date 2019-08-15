@@ -4,10 +4,12 @@ function takeANumber(line, name) {
 }
 
 function nowServing(katzDeliLine) {
-  return katzDeliLine[0];
+  var firstPlace = katzDeliLine[0];
   katzDeliLine.shift;
-  if (katzDeliLine.length == 0) {
+  if (katzDeliLine.length === 0) {
     return "There is nobody waiting to be served!";
+  } else {
+    return `Currently serving ${firstPlace}.`
   }
 }
 
