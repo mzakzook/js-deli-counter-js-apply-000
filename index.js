@@ -11,5 +11,10 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(curLine) {
-  return `The line is currently: $
+  for (i = 0; i < curLine.length; i++) {
+  return `The line is currently: ${i+1}. ${curLine[i]}
+  }
+}
+
+
 }
